@@ -1,6 +1,6 @@
 [gd_scene format=3 uid="uid://cadilxewi3l1a"]
 
-[ext_resource type="Script" uid="uid://bt0gu8xgjlc6t" path="res://Jogo-TCC---Gustavo-main/Scripts/opções.gd" id="1_iksbf"]
+[ext_resource type="Script" uid="uid://bt0gu8xgjlc6t" path="res://Scripts/opções.gd" id="1_iksbf"]
 
 [node name="Opções" type="Control" unique_id=2040896404]
 layout_mode = 3

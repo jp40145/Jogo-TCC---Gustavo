@@ -1,7 +1,7 @@
 [gd_scene format=3 uid="uid://db033pthoqfiy"]
 
-[ext_resource type="Texture2D" uid="uid://cibyqd1mcq1xq" path="res://estética.png" id="1_5vskd"]
-[ext_resource type="Script" uid="uid://cu1ag47gnr6yl" path="res://Jogo-TCC---Gustavo-main/Scripts/menu_inicial.gd" id="1_iynn4"]
+[ext_resource type="Texture2D" uid="uid://cibyqd1mcq1xq" path="res://Desenhos/Background/estética.png" id="1_5vskd"]
+[ext_resource type="Script" uid="uid://cu1ag47gnr6yl" path="res://Scripts/menu_inicial.gd" id="1_iynn4"]
 
 [node name="Menu Inicial" type="Control" unique_id=1189700679]
 layout_mode = 3
