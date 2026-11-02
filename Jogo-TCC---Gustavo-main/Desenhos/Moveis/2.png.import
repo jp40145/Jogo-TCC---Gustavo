@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://cibyqd1mcq1xq"
-path="res://.godot/imported/estética.png-a5068dbd4834a087b4d554851f378558.ctex"
+uid="uid://c8t7bai1c2yxx"
+path="res://.godot/imported/2.png-f11b8871239fbc88db7a69d432b8f427.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Desenhos/Background/estética.png"
-dest_files=["res://.godot/imported/estética.png-a5068dbd4834a087b4d554851f378558.ctex"]
+source_file="res://Desenhos/Moveis/2.png"
+dest_files=["res://.godot/imported/2.png-f11b8871239fbc88db7a69d432b8f427.ctex"]
 
 [params]
 
