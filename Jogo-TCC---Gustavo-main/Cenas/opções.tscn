@@ -1,0 +1,38 @@
+[gd_scene format=3 uid="uid://cadilxewi3l1a"]
+
+[ext_resource type="Script" uid="uid://bt0gu8xgjlc6t" path="res://Jogo-TCC---Gustavo-main/Scripts/opções.gd" id="1_iksbf"]
+
+[node name="Opções" type="Control" unique_id=2040896404]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_iksbf")
+
+[node name="ColorRect" type="ColorRect" parent="." unique_id=490462393]
+layout_mode = 0
+offset_right = 1158.0
+offset_bottom = 648.0
+color = Color(0.47843137, 0.21568628, 0.46666667, 1)
+
+[node name="Voltar" type="Button" parent="." unique_id=744157183]
+layout_mode = 0
+offset_left = 403.0
+offset_top = 365.0
+offset_right = 674.0
+offset_bottom = 529.0
+theme_override_font_sizes/font_size = 114
+text = "Back"
+
+[node name="Label" type="Label" parent="." unique_id=879196623]
+layout_mode = 0
+offset_left = 65.0
+offset_top = 165.0
+offset_right = 1079.0
+offset_bottom = 223.0
+theme_override_font_sizes/font_size = 42
+text = "Estamos en construccion, vuelva más tarde!!!!!!!!!!!!"
+
+[connection signal="pressed" from="Voltar" to="." method="_on_voltar_pressed"]

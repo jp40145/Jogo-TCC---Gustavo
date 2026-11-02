@@ -1,0 +1,63 @@
+[gd_scene format=3 uid="uid://db033pthoqfiy"]
+
+[ext_resource type="Texture2D" uid="uid://cibyqd1mcq1xq" path="res://estética.png" id="1_5vskd"]
+[ext_resource type="Script" uid="uid://cu1ag47gnr6yl" path="res://Jogo-TCC---Gustavo-main/Scripts/menu_inicial.gd" id="1_iynn4"]
+
+[node name="Menu Inicial" type="Control" unique_id=1189700679]
+layout_mode = 3
+anchors_preset = 0
+script = ExtResource("1_iynn4")
+
+[node name="ColorRect" type="ColorRect" parent="." unique_id=771192684]
+layout_mode = 0
+offset_right = 1146.0
+offset_bottom = 641.0
+color = Color(0.3840582, 0.0016066044, 0.64188564, 0.8117647)
+
+[node name="Estética" type="Sprite2D" parent="." unique_id=1260555816]
+position = Vector2(742, 321)
+scale = Vector2(0.7158309, 0.6180258)
+texture = ExtResource("1_5vskd")
+
+[node name="Nemo do Jogo" type="Label" parent="." unique_id=1858588192]
+layout_mode = 0
+offset_left = 2.0
+offset_top = 11.0
+offset_right = 274.0
+offset_bottom = 143.0
+theme_override_font_sizes/font_size = 30
+text = "Os Lambisgois 
+de
+ Xique-Xique Bahia
+:0"
+
+[node name="Comecar" type="Button" parent="." unique_id=1028412785]
+layout_mode = 1
+offset_left = 21.0
+offset_top = 268.0
+offset_right = 317.0
+offset_bottom = 358.0
+theme_override_font_sizes/font_size = 59
+text = "Play"
+
+[node name="Opções" type="Button" parent="." unique_id=1206584898]
+layout_mode = 0
+offset_left = 21.0
+offset_top = 394.0
+offset_right = 317.0
+offset_bottom = 484.0
+theme_override_font_sizes/font_size = 59
+text = "Options"
+
+[node name="Sair" type="Button" parent="." unique_id=696635695]
+layout_mode = 0
+offset_left = 21.0
+offset_top = 523.02
+offset_right = 317.0
+offset_bottom = 613.02
+theme_override_font_sizes/font_size = 59
+text = "Quit"
+
+[connection signal="pressed" from="Comecar" to="." method="_on_comecar_pressed"]
+[connection signal="pressed" from="Opções" to="." method="_on_opções_pressed"]
+[connection signal="pressed" from="Sair" to="." method="_on_sair_pressed"]
